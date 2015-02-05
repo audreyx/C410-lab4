@@ -1,0 +1,15 @@
+.help
+.tables
+.schema person
+pragma table_info(person)
+.mode column
+.headers on
+
+create table person (name varchar, age int); 
+insert into person (name,age) values ('John', 30);
+delete from person <where condiction>;
+select * from person;
+drop table person;
+
+Ctrl+D to exit sqlite3
+
